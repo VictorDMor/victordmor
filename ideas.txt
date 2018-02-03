@@ -1,0 +1,8 @@
+- Trocar a foto
+- Resolver centralização das infos do header
+- Página 404
+- Otimizar com boas práticas de CSS e HTML
+- Trocar por tabs
+- Implementar Jekyll
+- Trocar a por nav
+- Pivotar para blog

@@ -1,0 +1,43 @@
+.name {
+	font-family: 'Tauri', sans-serif;
+	font-weight: bold;
+	color: #fff;
+}
+
+h1, h4, p {
+	font-family: 'Tauri', sans-serif;
+	color: #333;
+}
+
+.links {
+	font-family: 'Tauri', sans-serif;
+	color: #00f;
+	text-decoration: none;
+}
+
+.links:hover {
+	color: #000;
+}
+
+.links:visited {
+	color: #00f;
+}
+
+.main_info {
+	height: 30%;
+}
+
+.main_header {
+	height: 320px;
+	text-align: center;
+}
+
+.photo {
+	padding-top: 10px;
+	width: 100px;
+	height: 150px;
+}
+
+.contact_div {
+	text-align: center;
+}
