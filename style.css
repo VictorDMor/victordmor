@@ -2,18 +2,16 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.name {
-	font-weight: bold;
-	color: #fff;
-}
-
-h1, h4, p {
-	color: #333;
+.center {
+	margin: 0 auto;
+	width: 65%;
+	margin-left: 10px;
+	margin-right: 20px;
 }
 
 .ciandt-logo {
-	width: 90px;
-	height: 50px;
+	width: 80px;
+	height: 45px;
 	vertical-align: middle;
 	margin-right: 10px;
 	padding-bottom: 10px;
@@ -31,28 +29,71 @@ h1, h4, p {
 	color: #333;
 }
 
+.company-website:hover {
+	color: #999;
+}
+
+.contact-card {
+	margin-bottom: 10px;
+}
+
+.contact-icon {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.contact-link { 
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+
+.contact-link:hover {
+	color: #999;
+}
+
+.experience-card {
+	border-bottom: 2px solid #333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h1, h4, p {
+	color: #333;
+}
+
+.left {
+	float: left;
+	width: 15%;
+}
+
 .left-anchor {
-	color: #666;
+	color: #333;
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: bold;
 }
 
 .left-anchor:hover {
-	color: #000;
+	color: #999;
 }
 
-.left-anchor:visited {
-	color: #00f;
-}
-
-.main_info {
-	height: 30%;
+.main-container {
+	clear: both;
+	display: flex;
+	width: 100%;
 }
 
 .main_header {
 	height: 320px;
 	text-align: center;
+}
+
+.name {
+	font-weight: bold;
+	color: #fff;
 }
 
 .photo {
@@ -66,25 +107,11 @@ h1, h4, p {
 	font-weight: bold;
 }
 
-.main-container {
-	clear: both;
-	display: flex;
-	width: 100%;
-}
-
-.left {
-	float: left;
-	width: 15%;
-}
-
 .right {
 	float: right;
 	width: 20%;
 }
 
-.center {
-	margin: 0 auto;
-	width: 65%;
-	margin-left: 10px;
-	margin-right: 10px;
+.title {
+	margin-bottom: -10px;
 }
