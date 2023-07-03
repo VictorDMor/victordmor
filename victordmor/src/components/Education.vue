@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="education">
       <h2>Education</h2>
       <div v-for="(education, index) in educationData" :key="index">
         <h3>{{ education.degree }}</h3>

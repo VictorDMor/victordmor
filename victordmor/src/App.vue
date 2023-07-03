@@ -3,8 +3,11 @@
   <div id="app">
     <MainHeader />
     <About />
+    <hr class="section-divider">
     <TechSkills />
+    <hr class="section-divider">
     <WorkExperience />
+    <hr class="section-divider">
     <EducationLevel />
   </div>
 </template>
@@ -31,7 +34,23 @@ export default {
 <style>
 #app {
   text-align: center;
-  color: #2c3e50;
+  color: #192430;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.section-divider {
+  border: 0;
+  height: 1px;
+  background: #333;
+  opacity: 0.2;
+  margin: 30px 0;
 }
 </style>
 
