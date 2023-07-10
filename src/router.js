@@ -7,13 +7,13 @@ import PersonalProjects from './components/Projects.vue'
 import NunuNutella from './components/Nutella.vue'
 
 const routes = [
-    { path: '/', redirect: '/about' },
-    { path: '/about', component: About },
-    { path: '/skills', component: TechSkills },
-    { path: '/experience', component: WorkExperience },
-    { path: '/education', component: EducationLevel },
-    { path: '/projects', component: PersonalProjects },
-    { path: '/nutella', component: NunuNutella },
+    { path: '', redirect: '/about' },
+    { path: 'about', component: About },
+    { path: 'skills', component: TechSkills },
+    { path: 'experience', component: WorkExperience },
+    { path: 'education', component: EducationLevel },
+    { path: 'projects', component: PersonalProjects },
+    { path: 'nutella', component: NunuNutella },
 ]
 
 const router = createRouter({
