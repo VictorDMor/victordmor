@@ -1,4 +1,4 @@
-import { createRouter } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import About from './components/About.vue'
 import TechSkills from './components/Skills.vue'
 import WorkExperience from './components/Experience.vue'
@@ -17,8 +17,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  mode: 'history',
-  base: process.env.NODE_ENV === 'production' ? '/victordmor/' : '/',
+  history: createWebHistory(),
   routes, // short for `routes: routes`
 })
 
