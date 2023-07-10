@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="header-content">
-      <img :src="imageSrc" alt="Profile picture" />
+      <img :src="imageSrc" alt="Profile picture" class="profile-pic"/>
       <h1>{{ name }}</h1>
       <div class="contact-info">
         <a href="https://www.linkedin.com/in/vdmor/" target="_blank">
@@ -10,20 +10,20 @@
         <a href="https://www.github.com/victordmor" target="_blank">
           <img :src="githubIcon" alt="GitHub" />
         </a>
-        <a href="your-leetcode-url" target="_blank">
+        <a href="https://leetcode.com/vdmoraes94/" target="_blank">
           <img :src="leetcodeIcon" alt="LeetCode" />
         </a>
-        <a href="mailto:vdmoraes94@gmail.com">
+        <a href="mailto:victor@weaifuture.com">
           <i class="fa-solid fa-envelope"></i>
         </a>
       </div>
       <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-        </ul>
+        <router-link to="/about">About</router-link> |
+        <router-link to="/skills">Skills</router-link> |
+        <router-link to="/experience">Experience</router-link> |
+        <router-link to="/education">Education</router-link> |
+        <router-link to="/projects">Projects</router-link> |
+        <router-link to="/nutella">Nutella</router-link>
       </nav>
     </div>
   </header>
@@ -71,21 +71,15 @@ header h1 {
   color: #333;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
+nav {
+  margin-top: 10px;
 }
 
-nav ul li {
-  margin-left: 10px;
-}
-
-nav ul li a {
+nav a {
   text-decoration: none;
   color: #333;
 }
+
 .contact-info img {
   width: 24px;
   height: 24px;
@@ -101,5 +95,10 @@ nav ul li a {
 }
 .contact-info a {
   margin: 0 5px;
+}
+
+.profile-pic {
+  border: 5px solid #333;
+  border-radius: 50%;
 }
 </style>
